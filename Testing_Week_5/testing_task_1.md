@@ -37,7 +37,7 @@ end
 # line 28 should be def and the variables being passed in require a comma between them.
 
 # line 30 .name is not a method or an instance of the card class
-# need to return the hash of the card
+# need to return the hash of the card or the correct variable names.
 
 
 def self.cards_total(cards)
@@ -48,7 +48,8 @@ def self.cards_total(cards)
   end
 end
 
+# does not need to be a class method
 # line 44 total requires a starting value.
 # line 47 should use string interpolation to insert value.
-
+# the return needs to be outside the for loop or it will stop after first card
 ```
